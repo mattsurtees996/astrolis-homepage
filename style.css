@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #444054;
     }
 
 img{
@@ -22,19 +23,20 @@ li {
 }
 
 #hero1 {
-    background-color: aqua;
+    background-color: #526266;
 }
 
 #hero2 {
-    background-color: blueviolet;
+    background-color: #82969B;
 }
 
 #hero3 {
-    background-color: deeppink;
+    background-color: #19647E;
+    min-height: 40px;
 }
 
 #hero4 {
-    background-color: teal;
+    background-color: #050227;
     min-height: 35px;
     text-align: center;
 }
@@ -49,3 +51,6 @@ nav {
     text-align: center;
 }
 
+footer {
+    color: antiquewhite;
+}
