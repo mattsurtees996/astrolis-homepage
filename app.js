@@ -16,18 +16,27 @@ if(time <= 11) {
 
 let feedback1 = prompt("Where did you hear about us?")
 
-if (feedback1 = "Facebook ") {
+if (feedback1 == "Facebook") {
     message = "Thank you for your choosing Facebook!";
-} else if (feedback1 = "Instagram ") {
+} else if (feedback1 == "Instagram") {
     message = "Thank you for choosing Instagram!";
-} else if (feedback1 = "Twitter ") {
+} else if (feedback1 == "Twitter") {
     message = "Thank you for choosing Twitter!";
-} else if (feedback1 = "Autotrader ") {
+} else if (feedback1 == "Autotrader") {
     message = "Thank you for your feedback!";
 }
 
-
+let text;
+if (confirm("Accept Cookies?") == true) {
+  text = "Accepted";
+} else {
+  text = "Nevermind.";
+}
 console.log(message);
 
 document.write(message);
+
+console.log(text);
+
+
 
