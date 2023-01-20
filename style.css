@@ -1,56 +1,73 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #444054;
-    }
+.logoicon {
+  width: 120px;
+  padding-top: 80px;
+  padding-left: 60px;
+}
 
-img{
-    display: block;
-    width: 100%;
+header body {
+  margin: 0;
+  padding: 0;
+  background-color: #444054;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 .hero {
-    min-height: 250px;
-    border-radius: 20px;
-    padding: 15px;
+  min-height: 250px;
+  border-radius: 20px;
+  padding: 15px;
 }
 #hero0 {
-    min-height: 100px;
-    display:block;
+  min-height: 100px;
+  display: block;
 }
 
 #hero1 {
-    background-color: #526266;
+  background-color: #526266;
 }
 
 #hero2 {
-    background-color: #82969B;
+  background-color: #82969b;
 }
 
 #hero3 {
-    background-color: #19647E;
-    min-height: 40px;
+  background-color: #19647e;
+  min-height: 40px;
 }
 
 #hero4 {
-    background-color: #050227;
-    min-height: 35px;
-    text-align: center;
+  background-color: #050227;
+  min-height: 35px;
+  text-align: center;
 }
 
 h1 {
-    text-align: center;
-    font: size 200px;
-    color: darkblue;
+  text-align: center;
+  font: size 200px;
+  color: darkblue;
+  background-color: #888f90;
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    color: antiquewhite;
+  color: #848c8e;
 }
+
+/* #888f90 header background
+
+#435058 header text
+
+#7a8182 menu bar colour
+
+#CDCDCD page background
+
+#848C8E footer background */
